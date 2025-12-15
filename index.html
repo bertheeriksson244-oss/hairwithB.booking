@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hair with B | Online Booking</title>
+  <style>
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #fff5f8, #fdf0f6);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #000, #b89b5e);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 38px;
+      letter-spacing: 2px;
+      margin-bottom: 5px;
+    }
+    header p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
+    section {
+      padding: 25px;
+      max-width: 700px;
+      margin: auto;
+      background: #ffffff;
+      margin-top: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+      border-bottom: 2px solid #f3c6d3;
+      padding-bottom: 8px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 12px 0;
+      font-weight: 500;
+      border-bottom: 1px dashed #eee;
+    }
+    form input, form select, form button {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+      font-size: 15px;
+    }
+    form input:focus, form select:focus {
+      outline: none;
+      border-color: #f3c6d3;
+    }
+    form button {
+      background: linear-gradient(135deg, #000, #444);
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    form button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #777;
+      background: #faf7f2;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hair with B</h1>
+    <p>Book your appointment online</p>
+  </header>
+
+  <div style="text-align:center; margin-top:20px;">
+    <a href="https://www.instagram.com/hairwithb_officials/" target="_blank" style="text-decoration:none; padding:12px 25px; background:linear-gradient(135deg,#000,#b89b5e); color:#fff; border-radius:30px; font-weight:600; display:inline-block;">Follow on Instagram</a>
+  </div>
+
+  <section>
+    <h2>Services</h2>
+    <ul>
+      <li>Braids – 600–1000 SEK</li>
+      <li>Twist – 250–500 SEK</li>
+      <li>Locs & Locs Retwist – 600–1500 SEK</li>
+      <li>Sew In – 850 SEK</li>
+      <li>Wig Install – 750 SEK</li>
+      <li>Wig Install + Style – 1000 SEK</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Book an Appointment</h2>
+    <form action="mailto:Beartyshair.withb@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Full Name" placeholder="Full Name" required />
+      <input type="email" name="Email" placeholder="Email Address" required />
+      <input type="tel" name="Phone" placeholder="Phone Number" required />
+      <select name="Service" required>
+        <option value="">Select Service</option>
+        <option>Braids</option>
+        <option>Twist</option>
+        <option>Locs & Locs Retwist</option>
+        <option>Sew In</option>
+        <option>Wig Install</option>
+      </select>
+      <input type="date" name="Date" required />
+      <input type="time" name="Time" required />
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Instagram Gallery</h2>
+    <p style="text-align:center; margin-bottom:15px;">Latest looks from <strong>@hairwithb_officials</strong></p>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:15px;">
+      <a href="https://www.instagram.com/hairwithb_officials/" target="_blank"><img src="https://via.placeholder.com/300x300?text=Hair+Look+1" style="width:100%; border-radius:12px;" /></a>
+      <a href="https://www.instagram.com/hairwithb_officials/" target="_blank"><img src="https://via.placeholder.com/300x300?text=Hair+Look+2" style="width:100%; border-radius:12px;" /></a>
+      <a href="https://www.instagram.com/hairwithb_officials/" target="_blank"><img src="https://via.placeholder.com/300x300?text=Hair+Look+3" style="width:100%; border-radius:12px;" /></a>
+      <a href="https://www.instagram.com/hairwithb_officials/" target="_blank"><img src="https://via.placeholder.com/300x300?text=Hair+Look+4" style="width:100%; border-radius:12px;" /></a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Client Reviews</h2>
+    <p style="text-align:center; margin-bottom:15px;">Leave your review below!</p>
+    <form action="mailto:Beartyshair.withb@gmail.com" method="POST" enctype="text/plain" style="max-width:600px; margin:auto;">
+      <input type="text" name="Name" placeholder="Your Name" required />
+      <input type="email" name="Email" placeholder="Your Email" required />
+      <textarea name="Review" placeholder="Write your review here" rows="4" style="width:100%; padding:12px; border-radius:10px; border:1px solid #ddd; margin-bottom:15px;" required></textarea>
+      <label for="rating">Star Rating:</label>
+      <select name="Rating" id="rating" style="width:100%; padding:12px; border-radius:10px; border:1px solid #ddd; margin-bottom:15px;" required>
+        <option value="">Select Rating</option>
+        <option value="5">5 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="2">2 Stars</option>
+        <option value="1">1 Star</option>
+      </select>
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Booking Policy</h2>
+    <ul>
+      <li>Please arrive on time for your appointment.</li>
+      <li>Late arrivals may result in shortened service.</li>
+      <li>No-shows may be refused future bookings.</li>
+      <li>Deposits may be required for some services.</li>
+      <li>24-hour notice required for cancellations.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Hair with B | Phone: 0793448024 | Email: Beartyshair.withb@gmail.com</p>
+  </footer>
+
+</body>
+</html>
